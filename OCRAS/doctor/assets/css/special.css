@@ -1,0 +1,25 @@
+
+
+p4 {
+  font-weight: 300;
+  margin-left: 13px;
+  color:black;
+ letter-spacing: 5px;
+   font-family: Helvetica, Arial, sans-serif;
+  }
+  
+   p4.text-bold{
+    font-weight: 600;
+   }
+   
+ c4 {
+  font-weight: 120px;
+  margin-left: 43px;
+  color:black;
+ letter-spacing: 0.4px;
+   font-family: Helvetica, Arial, sans-serif;
+  }
+  
+   c4.text-bold{
+    font-weight: 300px;
+   }

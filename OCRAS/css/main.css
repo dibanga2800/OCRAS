@@ -1,0 +1,255 @@
+body{
+padding-top:50px;
+padding-right:30px;
+}
+
+
+#headerwrapper{
+position:relative;
+padding:0;
+margin:0;
+overflow: hidden;
+height:300px;
+background-image: url(../images/headerlogo/background.png);
+background-repeat: no-repeat;
+background-size: 100% 600px;
+background-position: top center;
+background-attachment: fixed;
+top: 50%
+margin-top: -90px;
+}
+
+#logotext{
+position:absolute;
+width: 100%;
+height:180px;
+background-image: url(../images/headerlogo/textt.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 70% 180px;
+top:50%;
+margin-top:-90px;
+
+}
+
+.img-thumb{
+width:auto;
+height:100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding:5px;
+}
+
+.btn-primary{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align:center;
+}
+
+#footer{
+  margin-top:50px;
+}
+
+img.details{
+  width:90%;
+ margin:15px auto;
+
+}
+
+.table-auto{
+width: auto;
+margin: 0 auto;
+
+}
+
+#fore-flower{
+  position:absolute;
+  width:100%;
+  height:480px;
+  background-image:url(../images/headerlogo/fore-flower.png);
+  background-size:auto 400px;
+  background-repeat:no-repeat;
+  background-position:right bottom;
+  top:90px;
+  right:-50px;
+}
+
+#back-flower{
+position:absolute;
+width:100%;
+height:350px;
+background-image:url(../images/headerlogo/back-flower.png);
+background-size:auto 350px;
+background-repeat:no-repeat;
+background-position:left bottom;
+top:200px
+right:-50px;
+}
+
+#add-product-btn{
+  margin-top: -35px;
+}
+#title{
+  padding-top: 15px;
+}
+#login-form{
+  width:50%;
+  height:60%;
+  border:2px solid #000;
+  border-radius: 15px;
+  box-shadow:7px 7px 15px rgba(0,0,0,0,0.6);
+  margin: 8% auto;
+  padding:15px;
+  background-color: #fff;
+}
+.saved-image img{
+  width:200px;
+  height:auto;
+}
+table.timecard {
+  margin-right: 0px;
+  margin-left: auto;
+  margin-top: -25%;
+	width: 700px;
+	border-collapse: collapse;
+	border: 1px solid #fff; /*for older IE*/
+	border-style: hidden;
+}
+
+table.timecard caption {
+	background-color: #f79646;
+	color: #fff;
+	font-size: x-large;
+	font-weight: bold;
+	letter-spacing: .3em;
+}
+
+table.timecard thead th {
+	padding: 12px;
+	background-color: #d9f6fd;
+	font-size: large;
+}
+
+table.timecard thead th# {
+	width: 40%;
+}
+
+table.timecard thead th, table.timecard thead th#, table.timecard thead th# {
+	width: 20%;
+}
+
+table.timecard th, table.timecard td {
+	padding: 8px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #f79646 #ccc;
+
+}
+
+table.timecard td {
+	text-align: center;
+}
+
+table.timecard tbody th {
+	text-align: right;
+	font-weight: normal;
+  align:right;
+
+
+}
+
+table.timecard tfoot {
+	font-weight: bold;
+	font-size: large;
+	background-color: #687886;
+	color: #fff;
+}
+
+table.timecard tr.even {
+	background-color: #fde9d9;
+}
+  #form1{
+    width:40%;
+    height:60%;
+    border:2px solid #000;
+    border-radius: 1px;
+    box-shadow:7px 7px 10px rgba(0,0,0,0,0.6);
+    margin: 2% ;
+    padding:15px;
+    background-color: #fff;
+  }
+  #form2{
+    display: block;
+    width: 100%;
+    height: 34px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+  }
+
+  #partial-headerwrapper{
+  position:relative;
+  padding:0;
+  margin:0;
+  overflow: hidden;
+  height:180px;
+  background-image: url(../images/headerlogo/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 180px;
+  top: 50%
+  margin-top: -90px;
+  }
+
+  #partial-logotext{
+  position:absolute;
+  width: 100%;
+  height:180px;
+  background-image: url(../images/headerlogo/textt.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 180px;
+  top: 50%;
+  margin-top:-90px;
+
+  }
+
+  #partial-fore-flower{
+  position:absolute;
+  width:100%;
+  height:400px;
+  background-image:url(../images/headerlogo/fore-flower.png);
+  background-size:auto 400px;
+  background-repeat:no-repeat;
+  background-position:right bottom;
+  top:100px;
+  right:-50px;
+  }
+
+  #partial-back-flower{
+  position:absolute;
+  width:100%;
+  height:350px;
+  background-image:url(../images/headerlogo/back-flower.png);
+  background-repeat:no-repeat;
+  background-position:left bottom;
+  background-size:auto 350px;
+  top:75px
+  left:-25px;
+  }
+.totals-table-header th{
+  text-align:center;
+}
+#cart_widget td{
+  font-size: 12px;
+}
+#recent_widget td{
+  font-size: 12px;
+}
+
+input.price_range{
+  width: 55px;
+}
